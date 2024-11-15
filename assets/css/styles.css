@@ -68,3 +68,9 @@ footer {
     padding: 15px;
     margin-top: 10px;
 }
+@media(max-width:768px){
+    #sec_1, #sec_2, #sec_3 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
